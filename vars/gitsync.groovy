@@ -18,7 +18,7 @@ def call(Map buildEnv){
         environment{
             def PATH_TO_GITSYNC_CONF        = getParameterValue(buildEnv, 'PATH_TO_GITSYNC_CONF')
             def USING_DOCKER                = getParameterValue(buildEnv, 'USING_DOCKER')
-            def _DB_USER_CREDENTIONALS_ID    = getParameterValue(buildEnv, 'DB_USER_CREDENTIONALS_ID')
+            def _DB_USER_CREDENTIONALS_ID   = getParameterValue(buildEnv, 'DB_USER_CREDENTIONALS_ID')
             def V8VERSION                   = getParameterValue(buildEnv, 'V8VERSION')
         }
 
