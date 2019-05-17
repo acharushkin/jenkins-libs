@@ -27,7 +27,7 @@ def getDefaultParams(){
         'FILE_BASE_PATH': './build/ib', // 'Путь к файловой базе'
         'USING_DOCKER': 'false', // Выполнять задачу в контейнере DOCKER
         'SEND_EMAIL': 'false', // Рассылка оповещения на почту
-        'EMAILS_FOR_NOTIFICATION':"", // Почтовый ящик для уведомлений
+        'EMAILS_FOR_NOTIFICATION':"charushkin@gmail.com", // Почтовый ящик для уведомлений
         'AGENT': 'windows', // Агент
         'V8VERSION': "8.3", // Версия платформы
         'DB_USER_CREDENTIONALS_ID': "466cc69b-fad3-431c-a10c-6b82f950ed65", // Идентификатор Аутентификации пользователя информационной базы
@@ -41,9 +41,9 @@ def getDefaultParams(){
         'UCCODE': 'locked', // Пароль блокировки информационной базы 
         'LOCK_MESSAGE': 'Регламентные работы Контуром CI',
         'VRUNNER_CONF': 'tools/JSON/vRunner.json', // Путь к конфигурационному файлу vrunner
-        'PROCEDURE_SINTAX_CHECK': 'false', // Выполнять синтаксическую проверку средствами 1с
-        'PROCEDURE_TDD_TEST': 'false', // Выполнять TDD тестирование
-        'PROCEDURE_BDD_TEST': 'false' // Выполять BDD тестирование
+        'PROCEDURE_SINTAX_CHECK': 'true', // Выполнять синтаксическую проверку средствами 1с
+        'PROCEDURE_TDD_TEST': 'true', // Выполнять TDD тестирование
+        'PROCEDURE_BDD_TEST': 'true' // Выполять BDD тестирование
 
     ]
 }
