@@ -30,7 +30,7 @@ def getDefaultParams(){
         'EMAILS_FOR_NOTIFICATION':"", // Почтовый ящик для уведомлений
         'AGENT': 'windows', // Агент
         'V8VERSION': "8.3", // Версия платформы
-        'DB_USER_CREDENTIONALS_ID': "", // Идентификатор Аутентификации пользователя информационной базы
+        'DB_USER_CREDENTIONALS_ID': "466cc69b-fad3-431c-a10c-6b82f950ed65", // Идентификатор Аутентификации пользователя информационной базы
 
         // Gitsync
         'PATH_TO_GITSYNC_CONF': './tools/JSON/gitsync_conf.JSON', // Путь к конфигурационному файлу GITSYNC
